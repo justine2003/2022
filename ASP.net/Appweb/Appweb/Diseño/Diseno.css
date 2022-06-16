@@ -1,0 +1,29 @@
+﻿header {
+    background-color:gray;
+    height: 74px;
+}
+
+#Home{
+    margin-left:20px;
+    margin-top:11px;
+    width: 67px;
+    height: 49px;
+}
+
+#Rangos{
+    margin-left: 20px;
+    margin-top: 11px;
+    width: 67px;
+    height: 49px;
+}
+
+#Reportes{
+    margin-left: 20px;
+    margin-top: 11px;
+    width: 67px;
+    height: 49px;
+}
+
+#info{
+    text-align:center;
+}
