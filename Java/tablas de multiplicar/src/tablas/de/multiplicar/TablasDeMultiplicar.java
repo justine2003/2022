@@ -18,7 +18,8 @@ public class TablasDeMultiplicar {
      */
     public static void main(String[] args) 
     {
-     int num = Integer.parseInt(JOptionPane.showInputDialog("Ingre el numero de la tabal"));
+     
+    /* int num = Integer.parseInt(JOptionPane.showInputDialog("Ingre el numero de la tabal"));
      
         System.out.println(num*1);
         System.out.println(num*2);
@@ -30,6 +31,19 @@ public class TablasDeMultiplicar {
         System.out.println(num*8);
         System.out.println(num*9);
         System.out.println(num*10);
+        
+        */
+
+        String s = "";
+        
+        for (int x = 1; x <= 100; x++) 
+        {
+            if(x%2!=0)
+            {
+                s = s + x + " ";
+                System.out.println(s);
+            }
+        }
     }
 
     
